@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf8") as fh:
     long_description = fh.read()
 
 setup(name='TkLogin',
-      version='0.0.2',
+      version='0.0.3',
       description='Python Tkinter login',
       long_description=long_description,
       long_description_content_type='text/markdown',
@@ -23,7 +23,7 @@ setup(name='TkLogin',
       },
 
       install_requires=[
-        #'ftputil>=3.4',
+        'ftputil>=3.4',
         
 
 
