@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf8") as fh:
     long_description = fh.read()
 
 setup(name='TkLogin',
-      version='0.0.3',
+      version='0.0.4',
       description='Python Tkinter login',
       long_description=long_description,
       long_description_content_type='text/markdown',
@@ -18,7 +18,7 @@ setup(name='TkLogin',
 
       include_package_data=True,
       package_data={
-        'TkLogin' : ['SRC/Users_Database.json','IMAGES/','Script/']
+        'TkLogin' : ['Data/Users_Database.json']
 
       },
 

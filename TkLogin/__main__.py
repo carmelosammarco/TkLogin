@@ -51,10 +51,10 @@ def main(args=None):
         ###########
         #LOGIN
         ###########
-        filejason =  pkg_resources.resource_filename('TkLogin', 'SRC/Users_Database.json')
+        filejason =  pkg_resources.resource_filename('TkLogin', 'Data/Users_Database.json')
         Database = {}
-        with open (filejason, "r") as login_file:
-            Database = json.load(login_file)
+        with open (filejason, "r") as logfile:
+            Database = json.load(logfile)
             Utenti = list(Database.keys())
             for Utenti in Database.keys():  
                 listdic = Database.get(Utenti) 
