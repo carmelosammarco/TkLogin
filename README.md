@@ -4,8 +4,8 @@
 
 This is a module of autentication written in Python. The app verifies that you have the right to access by cross-checking your credentials in a database. To have a successful login and as you can see from the [database](TkLogin/Data/Users_Database.json), the only active account is:
 
-Username: TkLogin
-Password: 000000
+- Username: TkLogin
+- Password: 000000
 
 
 ## Installation:
@@ -18,13 +18,13 @@ Once installed, to run it just type on Terminal/command-promp **"TkLogin"** and 
 
 ---
 
-- Example with Linux Ubuntu
+Example with Linux Ubuntu
 
 ![Image_screenshot_linux](Screenshots/Linux_screenshot.png)
 
 ---
 
-- Example with MacOS:
+Example with MacOS:
 
 ![Image_screenshot_MacOS](Screenshots/MacOS_screenshot.png)
 
